@@ -45,7 +45,7 @@ let idade = 18
 const signo = "virgem"
 
 /* 
-var é que não altera o resultado do código, além de ser um comando "global", e antigo.
-let pode ser mudado com o passar do tempo, exp: idade
-const não pode ser mudado com o passar do tempo, exp: nome, cpf, signo,etc...
+var Pode ser redeclarada e alterada sem erro, o que pode causar confusões no código, além de não ser aconselhado usar.
+let pode ser mudado com o passar do tempo, exp: idade (posso adicionar dois let com o mesmo valor)
+const não pode ser mudado com o passar do tempo, exp: nome, cpf, signo,etc...(não pode adicionar dois const com o mesmo valor)
  */
